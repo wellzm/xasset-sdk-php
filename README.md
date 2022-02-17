@@ -73,7 +73,7 @@ $config->setCredentials($appId, $ak, $sk);
 $config->endPoint = "http://120.48.16.137:8360";
 $xHandle = new XassetClient($config);
 
-// 调用SDK方法，可以参考test.php文件和单元测试文件
+// 调用SDK方法，可以参考demo.php和单元测试文件
 $account = array(
     'address'     => 'xxx',
     'public_key'  => 'xxx',
